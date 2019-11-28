@@ -14,7 +14,7 @@ services:
       - app-net
 
   loadbalancer:
-    build: ./load-balancer/
+    build: ./load-balancer
     ports:
       - "80:80"
     depends_on:
